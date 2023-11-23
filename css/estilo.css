@@ -83,3 +83,22 @@ body {
 .texto-lista-ordenada {
     font-size: larger;
 }
+
+.contato {
+    text-align: center;
+    width: 100%;
+    max-width: 500px ;
+    display: block;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
