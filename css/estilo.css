@@ -64,3 +64,22 @@
     border: #2b2929 solid 2px;
     border-radius: 2px;
 }
+
+body {
+    font-family: teko;
+}
+
+.bloco-de-contatos {
+    text-align: center;
+    
+    background-color: #bebebe;
+    
+}
+
+.bloco-de-contatos > ol {
+    list-style-type: none;
+}
+
+.texto-lista-ordenada {
+    font-size: larger;
+}
