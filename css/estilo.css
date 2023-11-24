@@ -23,6 +23,7 @@
     font-size: 100px;
     padding-left: 30px;
     width: 1000px;
+    min-width: 500px;
     padding-top: 30px;
 
 }
@@ -40,7 +41,9 @@
     padding-left: 50px;
     padding-right: 50px;
     background: #bebebe;
-    width: 2000px;
+    
+    border: #2b2929 solid 2px;
+    border-radius: 2px;
 
 }
 
@@ -60,10 +63,6 @@
     border-radius: 2px;
 }
 
-.itens-navbar {
-    border: #2b2929 solid 2px;
-    border-radius: 2px;
-}
 
 body {
     font-family: teko;
@@ -71,7 +70,6 @@ body {
 
 .bloco-de-contatos {
     text-align: center;
-    
     background-color: #bebebe;
     
 }
@@ -89,6 +87,7 @@ body {
     width: 100%;
     max-width: 500px ;
     display: block;
+    
 }
 
 .form {
@@ -102,3 +101,22 @@ body {
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (max-width: 1350px) {
+    .texto-header {
+        clear: both;
+      font-size: 50px;
+      font-family: teko;
+      min-width: 70px;
+    }
+
+    .imagem-header {
+        clear: both;
+        width: 200px;
+        height: 100px;
+        min-height: 100px;
+        margin-top: 80px;
+        
+    }
+
+  }
